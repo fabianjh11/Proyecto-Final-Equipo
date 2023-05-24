@@ -8,6 +8,8 @@ Demás herramientas y versiones específicas se encuentran en el archivo package
 ```
 git clone https://github.com/fabianjh11/Proyecto-Final-Equipo.git
 
+Se debe de crear un archivo .env con tus credenciales
+
 npm install --legacy-peer-deps
 
 npx prisma generate
