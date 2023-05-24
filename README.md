@@ -3,7 +3,7 @@ Proyecto FullStack de un E-Commerce utilizando Vue, Nuxt, Supabase, Stripe
 
 ## App Setup (localhost)
 
-Se utilizó Vue 3, Nux 3
+Se utilizó Vue 3, Nuxt 3
 Demás herramientas y versiones específicas se encuentran en el archivo package.json
 ```
 git clone https://github.com/fabianjh11/Proyecto-Final-Equipo.git
