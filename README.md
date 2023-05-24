@@ -1,6 +1,35 @@
 # Proyecto Final Equipo
 Proyecto FullStack de un E-Commerce utilizando Vue, Nuxt, Supabase, Stripe
 
+## App Setup (localhost)
+
+Se utilizó Vue 3, Nux 3
+Demás herramientas y versiones específicas se encuentran en el archivo package.json
+```
+git clone https://github.com/fabianjh11/Proyecto-Final-Equipo.git
+
+cp .env.example .env
+
+npm install --legacy-peer-deps
+
+npx prisma generate
+
+npm run dev
+```
+Es necesario contar con una cuenta de Supabase y de Stripe, después añadir todos los detalles en el archivo .env
+
+Ya que se conectó la aplicación a Supabase, se debe configurar la autenticación de Google
+    https://cloud.google.com
+    https://supabase.com/docs/guides/auth/social-login/auth-google
+
+Ahora es necesario ejecutar el comando para migrar las tablas de la base de datos y correr el archivo seed
+
+```
+npx prisma migrate dev --name init
+```
+
+Ese sería todo el proceso
+
 # Capturas
 
 Página principal:
