@@ -8,15 +8,15 @@ Demás herramientas y versiones específicas se encuentran en el archivo package
 ```
 git clone https://github.com/fabianjh11/Proyecto-Final-Equipo.git
 
-Se debe de crear un archivo .env con tus credenciales
-
 npm install --legacy-peer-deps
 
 npx prisma generate
 
 npm run dev
 ```
-Es necesario contar con una cuenta de Supabase y de Stripe, después añadir todos los detalles en el archivo .env
+Se debe de crear un archivo .env
+
+Es necesario contar con una cuenta de Supabase y de Stripe, después añadir tus credenciales en el archivo .env
 
 Ya que se conectó la aplicación a Supabase, se debe configurar la autenticación de Google
     https://cloud.google.com
